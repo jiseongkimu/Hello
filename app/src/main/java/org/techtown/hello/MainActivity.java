@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
     public void onButton3Clicked(View v){
         Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("tel:010-1000-1000"));
         startActivity(myIntent);
+
+        //
     }
 
 }
